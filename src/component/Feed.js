@@ -1,10 +1,11 @@
 import React from 'react';
 import  './assets/css/feed.css';
+import Storyreel from './Storyreel';
 
 const Feed = () => {
   return (
     <div className='feed'>
-        <h1>I am Feed</h1>
+        <Storyreel/>
     </div>
   )
 }
