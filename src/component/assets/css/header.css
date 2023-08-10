@@ -1,0 +1,89 @@
+.header{
+    display: flex;
+    padding: 5px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #fff;
+    justify-content: space-between;
+}
+.header_left{
+   display: flex;
+   align-items: center;
+}
+.header_left img{
+    height: 40px;
+}
+.header_search{
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 0px 10px;
+    height: 40px;
+}
+.header_search input{
+   border: 0;
+   outline: 0;
+   background-color: transparent;
+   margin-left: 20px;
+   padding: 0px;
+}
+.header_middle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_option{
+    padding: 5px 40px;
+}
+.header_option.active{
+    position: relative;
+}
+.header_option.active::after{
+    position: absolute;
+    content: "";
+    height: 3px;
+    left: 0;
+    right: 0;
+    bottom: -5px;
+    background-color: #2381fa;
+}
+.header_option.active svg{
+    color: #2381fa;
+}
+.header_option:hover{
+    border-radius: 20px;
+    background-color: whitesmoke;
+    cursor: pointer;
+
+}
+.header_option svg{
+    color: gray;
+}
+.header_option svg:hover{
+    color: #2381fa;
+}
+.header_right{
+    display: flex;
+    justify-content: space-between;
+}
+.header_info{
+    display: flex;
+    align-items: center;
+}
+.header_info h5{
+    margin-right: 20px;
+}
+.header_info .MuiAvatar-root{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+.header_right .MuiButtonBase-root{
+    width: 40px;
+    height: 40px;
+    margin: 0px 5px;
+    background-color: whitesmoke;
+    color: #000;
+}
