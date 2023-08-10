@@ -1,3 +1,4 @@
+import Feed from "./component/Feed";
 import Header from "./component/Header";
 import Sidebar from "./component/Sidebar";
 
@@ -7,8 +8,9 @@ function App() {
         {/*Hearder*/}
           <Header/>
 
-          <div className="className">
+          <div className="app_body">
             <Sidebar/>
+            <Feed/>
           </div>
         {/*App Body*/}
             {/*Sidebar*/}
