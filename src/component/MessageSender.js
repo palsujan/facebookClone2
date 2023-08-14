@@ -6,7 +6,7 @@ import PhotoLibraryIcon from '@material-ui/icons/PhotoLibrary';
 import EmojiEmotionsIcon from '@material-ui/icons/EmojiEmotions';
 import CloseIcon from '@material-ui/icons/Close';
 const MessageSender = () => {
-    const [open, setOpen] = useState(true)
+    const [open, setOpen] = useState(false)
 const handleClose = () =>{
     setOpen(false);
 }
